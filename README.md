@@ -91,6 +91,7 @@ xLSTM-Transformer/
 ├── run_predict.py                   # 独立推理入口（加载权重，复用实验配置）
 ├── run_ablations.py                 # 消融实验批跑与汇总
 ├── requirements.txt
+├── LICENSE                          # MIT 开源协议
 ├── DATA.md                          # 数据要求、NWP 预报接入方式、防泄漏说明
 ├── data/                            # 放你自己的数据（表格文件已被 .gitignore 忽略）
 ├── src/
@@ -269,4 +270,4 @@ P0 会让结果不可信，P1 影响可复现性或指标口径，P2 属工程�
 - **本仓库不包含任何原始数据**。论文实验所用的数据涉及第三方版权，不能公开分发；
   请按 [DATA.md](DATA.md) 准备自己的数据。同理，结果图表与逐样本预测值也未提交。
   若你希望把预报信息（IFS / GFS 等）接进来，`--extra-files` 已经留好了接口。
-- 仓库暂未附带开源协议，如需正式公开建议补一个（例如 MIT）。
+- 采用 **MIT** 开源协议，全文见 [LICENSE](LICENSE)。
