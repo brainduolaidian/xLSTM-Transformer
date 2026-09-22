@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 编辑器
+.idea/
+.vscode/
+.DS_Store
+
+# 中间产物
+*.log
+results/smoke/
+results/**/*.pt
+
+# 原始数据不随仓库分发（版权原因），详见 DATA.md
+data/*.xlsx
+data/*.xls
+data/*.csv
+data/*.xlsm
+
+# 结果图与逐样本预测值由脚本生成，且包含原始量纲数值，同样不随仓库分发
+results/**/*.png
+results/**/test_predictions.csv
+results/**/test_predictions.xlsx
+results/**/last_window_prediction.csv
